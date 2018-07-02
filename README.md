@@ -65,3 +65,20 @@ A standard extension for any non-fungible token to own another non-fungible ERC-
 
 ## ERC-1003 : Safe Transfer To Contract Extension ([ERC-1003](https://github.com/ethereum/EIPs/issues/1003))
 Instead of approving a contract to spend tokens on users behalf, ERC-1003 proposes a standard interface to first deposit to the token contract and then send to the destination contract.
+
+## ERC-1067 : Upgradeable Token Contract Standard ([ERC-1067](https://github.com/ethereum/EIPs/issues/1067))
+The following proposal describes a more distributed token contract architecture that has a simple upgrade-ability protocol and allows to bring in new functions after being deployed.
+
+## ERC-1132 : Token Locking Capability Standard ([ERC-1132](https://github.com/ethereum/EIPs/issues/1132))
+This proposal provides basic functionality to time-lock tokens within a contract for multiple utilities without the need of transferring tokens. It also allows fetching token balances of locked and unlocked tokens (tokens available for transfer).
+
+## ERC-1155 : Token Locking Capability Standard ([ERC-1155](https://github.com/ethereum/EIPs/issues/1155))
+Contract that keep tracks of multiple token balances and ownership to improve batch transfer efficiency. 
+
+#### Related to : 
+* [ERC-998](https://github.com/ethereum/EIPs/issues/998)
+
+## ERC-1190 : Token Locking Capability Standard ([ERC-1190](https://github.com/ethereum/EIPs/issues/1190))
+A standard interface for non-fungible tokens that pay royalties for a digital asset to the original creator(s) and/or owner(s).
+
+
