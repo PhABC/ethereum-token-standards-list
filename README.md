@@ -3,7 +3,7 @@ Exhaustive list of all token related standards proposed for the Ethereum network
 
 To contribute, please follow the [list element template](https://github.com/PhABC/ethereum-token-standards-list/blob/master/.github/NEW_LIST_ELEMENT_TEMPLATE.md) before making a pull requests. You can also open an issue if you disagree with some of the information in this list.
 
-I personnaly encourage proposals that are strongly related in their intentions to collaborate and merge in order to improve adoption success. For the sake of transparency, no judgment was made on the content and all proposals that had sufficient information were included. Included proposals that are considered insecure or mediocre should be encouraged to be closed and will then be removed from this list. Sufficient support for the removal of a proposal in the [issues](https://github.com/PhABC/ethereum-token-standards-list/issues) could lead to removal from this list.
+**I personnaly encourage proposals that are strongly related in their intentions to collaborate and merge in order to improve adoption success.** For the sake of transparency, no judgment was made on the content and all proposals that had sufficient information were included. Included proposals that are considered insecure or mediocre should be encouraged to be closed and will then be removed from this list. Sufficient support for the removal of a proposal in the [issues](https://github.com/PhABC/ethereum-token-standards-list/issues) could lead to removal from this list.
 
 # List of Ethereum Tokens Standards
 ## ERC-20 : Standard Fungible Token ([EIP-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md))
