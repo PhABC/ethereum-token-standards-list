@@ -90,6 +90,15 @@ Not all NFTs are created equal. Nothing exists to distinguish one NFT from anoth
 ## ERC-888 : MultiDimensional Token Standard ([ERC-888](https://github.com/ethereum/EIPs/pull/888))
 Proposing a model for multidimensional tokenization, which utilizes identifiers to refer to balances & data.
 
+#### Related to :
++ [EIP-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
++ [EIP-721](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md)
+
+#### Strongly related to :
++ [ERC-994](https://github.com/ethereum/EIPs/issues/994)
++ [ERC-998](https://github.com/ethereum/EIPs/issues/998)
++ [ERC-1155](https://github.com/ethereum/EIPs/pull/1155)
+
 ## ERC-918 : Minable Token Standard ([EIP-918](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-918.md))
 A specification for a standardized Mineable Token that uses a Proof of Work algorithm for distribution.
 
@@ -123,6 +132,7 @@ Unlike digital assets (like CryptoKitties) physical property requires more than 
 + [EIP-721](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md)
 
 #### Related to:
++ [ERC-888](https://github.com/ethereum/EIPs/pull/888)
 + [ERC-998](https://github.com/ethereum/EIPs/issues/998)
 + [ERC-1155](https://github.com/ethereum/EIPs/issues/1155)
 
@@ -144,6 +154,7 @@ A standard extension for any non-fungible token to own another non-fungible ERC-
 + [EIP-721](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md)
 
 #### Strongly related to:
++ [ERC-888](https://github.com/ethereum/EIPs/pull/888)
 + [ERC-994](https://github.com/ethereum/EIPs/issues/994)
 + [ERC-1155](https://github.com/ethereum/EIPs/issues/1155)
 
@@ -180,6 +191,7 @@ Contract that keep tracks of multiple token balances and ownership to improve ba
 + [EIP-721](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md)
 
 #### Strongly related to:
++ [ERC-888](https://github.com/ethereum/EIPs/pull/888)
 + [ERC-994](https://github.com/ethereum/EIPs/issues/994)
 + [ERC-998](https://github.com/ethereum/EIPs/issues/998)
 
