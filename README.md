@@ -12,6 +12,7 @@ ERC20 token standard is leading to money losses for end users. The main problem 
 
 #### Related to:
 + [ERC-667](https://github.com/ethereum/EIPs/issues/667)
++ [ERC-777](https://github.com/ethereum/EIPs/issues/223)
 + [ERC-827](https://github.com/ethereum/EIPs/issues/827)
 + [ERC-995](https://github.com/ethereum/EIPs/issues/995)
 + [ERC-1003](https://github.com/ethereum/EIPs/issues/1003)
@@ -21,6 +22,7 @@ ERC20 token standard is leading to money losses for end users. The main problem 
 
 #### Strongly Related to:
 + [ERC-223](https://github.com/ethereum/EIPs/issues/223)
++ [ERC-777](https://github.com/ethereum/EIPs/issues/223)
 + [ERC-827](https://github.com/ethereum/EIPs/issues/827)
 + [ERC-995](https://github.com/ethereum/EIPs/issues/995)
 + [ERC-1003](https://github.com/ethereum/EIPs/issues/1003)
@@ -29,7 +31,14 @@ ERC20 token standard is leading to money losses for end users. The main problem 
 While fungible tokens can be divided, non-fungible tokens (NFTs) can not.  NFTs can be owned and transacted by individuals as well as consigned to third party brokers/wallets/auctioneers ("operators"). NFTs can represent ownership over digital or physical assets.
 
 ## ERC-777 : Operator Based Token Standard ([ERC-777](https://github.com/ethereum/EIPs/issues/777))
-Instead of using `uints` for approving third parties to transfer tokens on the users behalf, ERC-777 proposes to use a boolean mapping between users and operators. This simplifies the language, the approval process and decreases gas cost.
+Instead of using `uints` for approving third parties to transfer tokens on the users behalf, ERC-777 proposes to use a boolean mapping between users and operators. This simplifies the language, the approval process and decreases gas cost. 777 also includes data passing functions. 
+
+#### Strongly Related to:
++ [ERC-223](https://github.com/ethereum/EIPs/issues/223)
++ [ERC-667](https://github.com/ethereum/EIPs/issues/667)
++ [ERC-827](https://github.com/ethereum/EIPs/issues/827)
++ [ERC-995](https://github.com/ethereum/EIPs/issues/995)
++ [ERC-1003](https://github.com/ethereum/EIPs/issues/1003)
 
 #### Related to:
 + [EIP-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
@@ -48,6 +57,7 @@ Extension to ERC-20 standard while building on ERC
 #### Strongly related to:
 + [ERC-223](https://github.com/ethereum/EIPs/issues/223)
 + [ERC-667](https://github.com/ethereum/EIPs/issues/667)
++ [ERC-777](https://github.com/ethereum/EIPs/issues/223)
 + [ERC-995](https://github.com/ethereum/EIPs/issues/995)
 + [ERC-1003](https://github.com/ethereum/EIPs/issues/1003)
 
@@ -74,6 +84,9 @@ Not all NFTs are created equal. Nothing exists to distinguish one NFT from anoth
 
 #### Related to:
 + [EIP-721](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md)
+
+## ERC-888 : MultiDimensional Token Standard ([ERC-888](https://github.com/ethereum/EIPs/pull/888))
+Proposing a model for multidimensional tokenization, which utilizes identifiers to refer to balances & data.
 
 ## ERC-918 : Minable Token Standard ([EIP-918](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-918.md))
 A specification for a standardized Mineable Token that uses a Proof of Work algorithm for distribution.
@@ -117,6 +130,7 @@ This standard provides an augmented token transfer functionality besides legacy 
 #### Strongly related to:
 + [ERC-223](https://github.com/ethereum/EIPs/issues/223)
 + [ERC-667](https://github.com/ethereum/EIPs/issues/667)
++ [ERC-777](https://github.com/ethereum/EIPs/issues/223)
 + [ERC-827](https://github.com/ethereum/EIPs/issues/827)
 + [ERC-1003](https://github.com/ethereum/EIPs/issues/1003)
 
@@ -140,6 +154,7 @@ Instead of approving a contract to spend tokens on users behalf, ERC-1003 propos
 #### Strongly related to:
 + [ERC-223](https://github.com/ethereum/EIPs/issues/223)
 + [ERC-667](https://github.com/ethereum/EIPs/issues/667)
++ [ERC-777](https://github.com/ethereum/EIPs/issues/223)
 + [ERC-827](https://github.com/ethereum/EIPs/issues/827)
 + [ERC-995](https://github.com/ethereum/EIPs/issues/995)
 
