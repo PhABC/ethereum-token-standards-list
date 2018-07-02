@@ -1,5 +1,5 @@
 // Token Related ERC List Template
-// Remove comments starting with '//'
+// Remove comments starting with " // "
 
 ## ERC-XXXX : Short, Informative Title (URL to proposal)
 Few sentences describing the standard
