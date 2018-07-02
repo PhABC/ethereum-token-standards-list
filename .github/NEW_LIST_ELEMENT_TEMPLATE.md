@@ -4,12 +4,11 @@
 Few sentences describing the standard
 
 // If applicable (almost certainly is), add one or both of the following sections
-
-// When the ERCs are trying to tackle similar issues 
 #### Related to:
+// When the ERCs are trying to tackle similar issues 
 + ERC-XXXX (URL) 
 
-// When the ERCs are almost identical in their intentions
 #### Strongly related to:
+// When the ERCs are almost identical in their intentions
 + ERC-XXXX (URL) 
 
