@@ -15,19 +15,15 @@ ERC20 token standard is leading to money losses for end users. The main problem 
 #### Related to:
 + [ERC-667](https://github.com/ethereum/EIPs/issues/667)
 + [ERC-777](https://github.com/ethereum/EIPs/issues/223)
-+ [ERC-827](https://github.com/ethereum/EIPs/issues/827)
 + [ERC-995](https://github.com/ethereum/EIPs/issues/995)
-+ [ERC-1003](https://github.com/ethereum/EIPs/issues/1003)
 
 ## ERC-667 : transferAndCall Token Standard ([ERC-667](https://github.com/ethereum/EIPs/issues/677))
 `transferAndCall` behaves similarly to transfer(address,uint256,bytes), but allows implementers to gain the functionality without the risk of inadvertently locking up tokens in non-ERC223 compatible contracts. It is distinct from ERC223's transfer(address,uint256,bytes) only in name, but this distinction allows for easy distinguishability between tokens that are ERC223 and tokens that are simply ERC20 + ERC667.
 
 #### Strongly Related to:
 + [ERC-223](https://github.com/ethereum/EIPs/issues/223)
-+ [ERC-777](https://github.com/ethereum/EIPs/issues/223)
-+ [ERC-827](https://github.com/ethereum/EIPs/issues/827)
++ [ERC-777](https://github.com/ethereum/EIPs/issues/777)
 + [ERC-995](https://github.com/ethereum/EIPs/issues/995)
-+ [ERC-1003](https://github.com/ethereum/EIPs/issues/1003)
 
 ## ERC-721 : Non-fungible Token Standard ([EIP-721](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md))
 While fungible tokens can be divided, non-fungible tokens (NFTs) can not.  NFTs can be owned and transacted by individuals as well as consigned to third party brokers/wallets/auctioneers ("operators"). NFTs can represent ownership over digital or physical assets.
@@ -38,9 +34,7 @@ Instead of using `uints` for approving third parties to transfer tokens on the u
 #### Strongly Related to:
 + [ERC-223](https://github.com/ethereum/EIPs/issues/223)
 + [ERC-667](https://github.com/ethereum/EIPs/issues/667)
-+ [ERC-827](https://github.com/ethereum/EIPs/issues/827)
 + [ERC-995](https://github.com/ethereum/EIPs/issues/995)
-+ [ERC-1003](https://github.com/ethereum/EIPs/issues/1003)
 
 #### Related to:
 + [EIP-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
@@ -52,16 +46,8 @@ Non-Fungible good: a good is non-fungible if it is not interchangeable. For exam
 
 ERC-809 allows an owner to rent access to their rival NFTs using a standard set of commands, thus allowing users to view all past and current rental agreements from a single wallet interface.
 
-## ERC-827 : transferFromAndCall & approveAndCall ([ERC-827](https://github.com/ethereum/EIPs/issues/827)) 
-Extension to ERC-20 standard while building on ERC
--667 proposal. 
-
-#### Strongly related to:
-+ [ERC-223](https://github.com/ethereum/EIPs/issues/223)
-+ [ERC-667](https://github.com/ethereum/EIPs/issues/667)
-+ [ERC-777](https://github.com/ethereum/EIPs/issues/223)
-+ [ERC-995](https://github.com/ethereum/EIPs/issues/995)
-+ [ERC-1003](https://github.com/ethereum/EIPs/issues/1003)
+## ~~ERC-827 : transferFromAndCall & approveAndCall ([ERC-827](https://github.com/ethereum/EIPs/issues/827))~~
+Insecure, removed.
 
 ## ERC-864 : NFTs Shared Ownership ([ERC-864](https://github.com/ethereum/EIPs/issues/864))
 This proposal aims to enable shared ownership of NFTs natively in the NFT contract. 
@@ -143,8 +129,6 @@ This standard provides an augmented token transfer functionality besides legacy 
 + [ERC-223](https://github.com/ethereum/EIPs/issues/223)
 + [ERC-667](https://github.com/ethereum/EIPs/issues/667)
 + [ERC-777](https://github.com/ethereum/EIPs/issues/223)
-+ [ERC-827](https://github.com/ethereum/EIPs/issues/827)
-+ [ERC-1003](https://github.com/ethereum/EIPs/issues/1003)
 
 ## ERC-998 : Composable Non-Fungible Token Standard ([ERC-998](https://github.com/ethereum/EIPs/issues/998))
 A standard extension for any non-fungible token to own another non-fungible ERC-721 or standard fungible ERC-20 tokens. Transferring the token composition means transferring the entire hierarchy of items. For example, a cryptokitty may own a scratching post and a feeding dish; the dish may contain some amount of fungible “chow” tokens.
@@ -158,18 +142,8 @@ A standard extension for any non-fungible token to own another non-fungible ERC-
 + [ERC-994](https://github.com/ethereum/EIPs/issues/994)
 + [ERC-1155](https://github.com/ethereum/EIPs/issues/1155)
 
-## ERC-1003 : Safe Transfer To Contract Extension ([ERC-1003](https://github.com/ethereum/EIPs/issues/1003))
-Instead of approving a contract to spend tokens on users behalf, ERC-1003 proposes a standard interface to first deposit to the token contract and then send to the destination contract.
-
-#### Related to :
-+ [EIP-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
-
-#### Strongly related to:
-+ [ERC-223](https://github.com/ethereum/EIPs/issues/223)
-+ [ERC-667](https://github.com/ethereum/EIPs/issues/667)
-+ [ERC-777](https://github.com/ethereum/EIPs/issues/223)
-+ [ERC-827](https://github.com/ethereum/EIPs/issues/827)
-+ [ERC-995](https://github.com/ethereum/EIPs/issues/995)
+## ~~ERC-1003 : Safe Transfer To Contract Extension ([ERC-1003](https://github.com/ethereum/EIPs/issues/1003))~~
+Removed, insecure.
 
 ## ERC-1067 : Upgradeable Token Contract Standard ([ERC-1067](https://github.com/ethereum/EIPs/issues/1067))
 The following proposal describes a more distributed token contract architecture that has a simple upgrade-ability protocol and allows to bring in new functions after being deployed.
