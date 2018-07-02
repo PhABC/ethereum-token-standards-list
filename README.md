@@ -1,4 +1,4 @@
-#### ethereum-token-standards-list
+### Ethereum Token Standards Exhaustive List
 Exhaustive list of all token related standards proposed for the Ethereum network. Feel free to create pull requests or open an issue if you would like to add new or missed token standards to this list. Feel free to also suggests better description and other relationships between standards. Many of the descriptions are taken from the proposals themselves. 
 
 To contribute, please follow the [list element template](https://github.com/PhABC/ethereum-token-standards-list/blob/master/.github/NEW_LIST_ELEMENT_TEMPLATE.md) before making a pull requests. You can also open an issue if you disagree with some of the information in this list.
