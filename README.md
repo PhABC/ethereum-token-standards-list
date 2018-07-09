@@ -175,3 +175,7 @@ A standard interface for non-fungible tokens that pay royalties for a digital as
 #### Related to :
 + [EIP-721](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md)
 
+## Additional resources
+
+#### Minime Token (https://github.com/Giveth/minime)
+ERC-20 token with additional features: Easy to clone tokens, balance transfer history & token controller.
