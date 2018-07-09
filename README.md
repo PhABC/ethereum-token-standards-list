@@ -179,3 +179,6 @@ A standard interface for non-fungible tokens that pay royalties for a digital as
 
 ## Minime Token (https://github.com/Giveth/minime)
 ERC-20 token with additional features: Easy to clone tokens, balance transfer history & token controller.
+
+## Yoga Token (https://github.com/Giveth/yogatoken)
+Minime token with ERC-223 functions. 
