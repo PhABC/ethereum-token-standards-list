@@ -130,7 +130,7 @@ This standard provides an augmented token transfer functionality besides legacy 
 + [ERC-667](https://github.com/ethereum/EIPs/issues/667)
 + [ERC-777](https://github.com/ethereum/EIPs/issues/223)
 
-## ERC-998 : Composable Non-Fungible Token Standard ([ERC-998](https://github.com/mudgen/EIPs/blob/master/EIPS/eip-998.md))
+## ERC-998 : Composable Non-Fungible Token Standard ([ERC-998](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-998.md))
 A standard extension for any non-fungible token to own another non-fungible ERC-721 or standard fungible ERC-20 tokens. Transferring the token composition means transferring the entire hierarchy of items. For example, a cryptokitty may own a scratching post and a feeding dish; the dish may contain some amount of fungible “chow” tokens.
 
 #### Related to :
