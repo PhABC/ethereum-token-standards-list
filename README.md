@@ -84,6 +84,8 @@ Proposing a model for multidimensional tokenization, which utilizes identifiers 
 + [ERC-994](https://github.com/ethereum/EIPs/issues/994)
 + [ERC-998](https://github.com/ethereum/EIPs/issues/998)
 + [ERC-1155](https://github.com/ethereum/EIPs/pull/1155)
++ [ERC-1178](https://eips.ethereum.org/EIPS/eip-1178)
++ [ERC-1203](https://eips.ethereum.org/EIPS/eip-1203)
 
 ## ERC-918 : Minable Token Standard ([EIP-918](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-918.md))
 A specification for a standardized Mineable Token that uses a Proof of Work algorithm for distribution.
@@ -121,6 +123,8 @@ Unlike digital assets (like CryptoKitties) physical property requires more than 
 + [ERC-888](https://github.com/ethereum/EIPs/pull/888)
 + [ERC-998](https://github.com/ethereum/EIPs/issues/998)
 + [ERC-1155](https://github.com/ethereum/EIPs/issues/1155)
++ [ERC-1178](https://eips.ethereum.org/EIPS/eip-1178)
++ [ERC-1203](https://eips.ethereum.org/EIPS/eip-1203)
 
 ## ERC-995 : Pre and Post Transfer Calls ([ERC-995](https://github.com/ethereum/EIPs/issues/995))
 This standard provides an augmented token transfer functionality besides legacy proven ERC20 functionality. It allows to execute calls on transfers and approvals both before and after tokens are transferred regardless if the receiving address is a contract or not.
@@ -141,6 +145,8 @@ A standard extension for any non-fungible token to own another non-fungible ERC-
 + [ERC-888](https://github.com/ethereum/EIPs/pull/888)
 + [ERC-994](https://github.com/ethereum/EIPs/issues/994)
 + [ERC-1155](https://github.com/ethereum/EIPs/issues/1155)
++ [ERC-1178](https://eips.ethereum.org/EIPS/eip-1178)
++ [ERC-1203](https://eips.ethereum.org/EIPS/eip-1203)
 
 ## ~~ERC-1003 : Safe Transfer To Contract Extension ([ERC-1003](https://github.com/ethereum/EIPs/issues/1003))~~
 Removed, insecure.
@@ -168,12 +174,37 @@ Contract that keep tracks of multiple token balances and ownership to improve ba
 + [ERC-888](https://github.com/ethereum/EIPs/pull/888)
 + [ERC-994](https://github.com/ethereum/EIPs/issues/994)
 + [ERC-998](https://github.com/ethereum/EIPs/issues/998)
++ [ERC-1178](https://eips.ethereum.org/EIPS/eip-1178)
++ [ERC-1203](https://eips.ethereum.org/EIPS/eip-1203)
+
+## ERC-1178 : Multi-Class Token Standard ([ERC-1178](https://eips.ethereum.org/EIPS/eip-1178))
+Standard interface for token contract with multiple token classes.
+
+#### Strongly related to:
++ [ERC-888](https://github.com/ethereum/EIPs/pull/888)
++ [ERC-994](https://github.com/ethereum/EIPs/issues/994)
++ [ERC-998](https://github.com/ethereum/EIPs/issues/998)
++ [ERC-1155](https://github.com/ethereum/EIPs/issues/1155)
++ [ERC-1203](https://eips.ethereum.org/EIPS/eip-1203)
 
 ## ERC-1190 : Non-Fungible Royalty Token Standard ([ERC-1190](https://github.com/ethereum/EIPs/issues/1190))
 A standard interface for non-fungible tokens that pay royalties for a digital asset to the original creator(s) and/or owner(s).
 
 #### Related to :
 + [EIP-721](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md)
+
+## ERC-1203 : Multi-Class Token Standard (ERC-20 Extension) ([ERC-1178](https://eips.ethereum.org/EIPS/eip-1203))
+Standard interface for token contract with multiple token classes that is also ERC-20 compatible. 
+
+#### Strongly related to:
++ [ERC-888](https://github.com/ethereum/EIPs/pull/888)
++ [ERC-994](https://github.com/ethereum/EIPs/issues/994)
++ [ERC-998](https://github.com/ethereum/EIPs/issues/998)
++ [ERC-1155](https://github.com/ethereum/EIPs/issues/1155)
++ [ERC-1178](https://eips.ethereum.org/EIPS/eip-1178)
+
+## ERC-1238 : Non-Transferrable Tokens AKA Badges ((ERC-1238)[https://github.com/ethereum/EIPs/issues/1238])
+Non-transferable tokens that represent "badges".
 
 # Additional resources
 
