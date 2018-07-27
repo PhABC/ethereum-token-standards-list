@@ -203,7 +203,7 @@ Standard interface for token contract with multiple token classes that is also E
 + [ERC-1155](https://github.com/ethereum/EIPs/issues/1155)
 + [ERC-1178](https://eips.ethereum.org/EIPS/eip-1178)
 
-## ERC-1238 : Non-Transferrable Tokens AKA Badges ((ERC-1238)[https://github.com/ethereum/EIPs/issues/1238])
+## ERC-1238 : Non-Transferrable Tokens AKA Badges ([ERC-1238](https://github.com/ethereum/EIPs/issues/1238))
 Non-transferable tokens that represent "badges".
 
 # Additional resources
