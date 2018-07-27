@@ -193,7 +193,7 @@ A standard interface for non-fungible tokens that pay royalties for a digital as
 #### Related to :
 + [EIP-721](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md)
 
-## ERC-1203 : Multi-Class Token Standard (ERC-20 Extension) ([ERC-1178](https://eips.ethereum.org/EIPS/eip-1203))
+## ERC-1203 : Multi-Class Token Standard (ERC-20 Extension) ([ERC-1203](https://eips.ethereum.org/EIPS/eip-1203))
 Standard interface for token contract with multiple token classes that is also ERC-20 compatible. 
 
 #### Strongly related to:
